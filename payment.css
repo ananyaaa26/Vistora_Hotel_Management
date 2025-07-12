@@ -1,0 +1,27 @@
+
+body {
+    background-color: #fff;
+    font-family: "Quattrocento", serif;
+    margin: 0;
+    padding: 0;
+}
+.payment-container {
+    margin: 80px auto;
+    max-width: 600px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.payment-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.payment-container .form-control {
+    margin-bottom: 15px;
+}
+.payment-container .btn-primary {
+    width: 100%;
+    background-color: #9d842e;
+    border-color: #9d842e;
+}
