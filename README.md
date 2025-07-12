@@ -54,28 +54,6 @@ Vistora_Express/
 - Node.js (v14 or higher recommended)
 - npm (Node package manager)
 
-### Installation Steps
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/Vistora_Express.git
-
-# Navigate into the project directory
-cd Vistora_Express
-
-# (Optional) Install dependencies
-npm install
-```
-
-### Running the Project
-
-```bash
-node server.js
-```
-
-Visit `http://localhost:3000` to view the app in your browser.
-
----
 
 ## 📡 API Overview
 
