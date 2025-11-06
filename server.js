@@ -262,11 +262,19 @@ app.get("/about", (req, res) => {
 })
 
 app.get("/contact", (req, res) => {
-  res.status(200).sendFile(path.join(__dirname, "views", "contactus.html"))
+  res.render("contactus", {
+    title: "Contact Us - Vistora",
+    ...commonData,
+    buttons: commonData.getButtons(!!req.session.userId),
+  })
 })
 
 app.get("/events", (req, res) => {
-  res.status(200).sendFile(path.join(__dirname, "views", "Events.html"))
+  res.render("Events", {
+    title: "Events - Vistora",
+    ...commonData,
+    buttons: commonData.getButtons(!!req.session.userId),
+  })
 })
 
 app.get("/rooms", (req, res) => {

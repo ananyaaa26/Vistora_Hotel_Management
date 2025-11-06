@@ -1,0 +1,135 @@
+/* Vistora Common Styles - Navbar and Footer */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    max-width: 150px;
+    max-height: 60px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #333 !important;
+    padding: 0 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Quattrocento', serif;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #bb9e44 !important;
+}
+
+.btn-custom,
+.btn[style*="background-color: #caa945"],
+.btn[style*="background-color: #bb9e44"] {
+    color: #fff !important;
+    background-color: #bb9e44 !important;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'Quattrocento', serif;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-custom:hover,
+.btn[style*="background-color: #caa945"]:hover,
+.btn[style*="background-color: #bb9e44"]:hover {
+    background-color: #9d842e !important;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    color: #ccc;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer p {
+    color: #ccc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer .list-unstyled {
+    padding: 0;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    color: #888;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.footer-bottom .list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bottom .list-inline-item {
+    margin: 0 10px;
+}
+
+.footer-bottom .list-inline-item a {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.footer-bottom .list-inline-item a:hover {
+    color: #bb9e44;
+}
+
+.footer .bi {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.footer .bi:hover {
+    color: #bb9e44;
+}
